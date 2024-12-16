@@ -9,6 +9,7 @@ model_path = 'model.pkl'
 with open(model_path, 'rb') as file:  # Corrected mode to 'rb' for binary reading
     model = pickle.load(file)
 
+
 # Initialize the Flask app
 app = Flask(__name__)
 
