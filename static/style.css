@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background: #f4f4f9;
+          color: #333;
+      }
+      
+      /* Container for the form and title */
+      .container {
+          max-width: 600px;
+          margin: 50px auto;
+          background: #fff;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          text-align: center;
+      }
+      
+      /* Title Styling */
+      .title {
+          font-size: 24px;
+          color: #5c67f2;
+          margin-bottom: 20px;
+      }
+      
+      /* Form Styling */
+      .form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      
+      .form-group {
+          margin-bottom: 15px;
+          width: 100%;
+          text-align: left;
+      }
+      
+      label {
+          font-size: 16px;
+          font-weight: bold;
+          margin-bottom: 5px;
+          display: block;
+      }
+      
+      input {
+          width: 100%;
+          padding: 10px;
+          font-size: 14px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          outline: none;
+      }
+      
+      input:focus {
+          border-color: #5c67f2;
+          box-shadow: 0 0 4px rgba(92, 103, 242, 0.3);
+      }
+      
+      /* Button Styling */
+      .btn {
+          padding: 10px 20px;
+          background: #5c67f2;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background 0.3s;
+      }
+      
+      .btn:hover {
+          background: #3f4cc9;
+      }
+      
+      /* Prediction Result */
+      .result {
+          margin-top: 20px;
+          padding: 10px;
+          background: #eef7ff;
+          color: #2c6fdd;
+          font-size: 18px;
+          font-weight: bold;
+          border: 1px solid #d4e3ff;
+          border-radius: 5px;
+      }
+      
